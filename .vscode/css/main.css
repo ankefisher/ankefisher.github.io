@@ -1,17 +1,17 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin: 1.25rem auto;
     max-width: 760px;
 }
 
 header {
-    background-color: rgb(199, 151, 74);;
+    background-color: #cdaf95
     height: 80px;    
 }
 footer {
-    background-color: rgb(199, 151, 74);
+    background-color:  #cdaf95
     text-align: center;
 }
 h1 {
