@@ -8,7 +8,8 @@ body {
 
 header {
     background-color: #cdaf95;
-    height: 80px;    
+    height: 80px; 
+    border-radius: 10px 10px 10px 10px;   
 }
 footer {
     background-color:  #cdaf95;
@@ -19,6 +20,12 @@ h1 {
     padding-left: 150px;
 }
 img {
-    padding-left: 150px; 
+    display: block;
+    margin-left: 615px;
+    margin-right: auto; 
+    margin-top: -70px;
+    box-shadow: 2px 6px 12px #8b8989; 
+    border: 2px solid #cdaf95;
+    border-radius: 0px 10px 0px 0px;
 }
    
