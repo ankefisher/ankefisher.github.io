@@ -8,14 +8,17 @@ body {
 
 header {
     background-color: rgb(199, 151, 74);;
-    height: 80px;
-   
-    
+    height: 80px;    
 }
 footer {
     background-color: rgb(199, 151, 74);
     text-align: center;
 }
 h1 {
-    text-align: justify;
+    padding-top: 15px;
+    padding-left: 150px;
 }
+img {
+    padding-left: 150px; 
+}
+   
