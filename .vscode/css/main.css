@@ -22,8 +22,10 @@ h1 {
     padding-left: 250px;
     }
 img {
+    width: 150px;
+    height: 200px;
     display: block;
-    margin-left: 615px;
+    margin-left: 590px;
     margin-right: auto; 
     margin-top: -70px;
     box-shadow: 2px 6px 12px #8b8989; 
@@ -33,7 +35,7 @@ img {
 
 h2 {
     padding-left: 15px; 
-    margin-top: -30px;
+    margin-top: -120px;
     margin-bottom: -10px;
 }
 ul {
