@@ -1,0 +1,51 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 1.25rem auto;
+        max-width: 760px;
+        font-family: 'Exo', sans-serif;
+    }
+    
+    header {
+        background-color: #cdaf95;
+        height: 80px; 
+        border-radius: 10px 10px 10px 10px;   
+    }
+    footer {
+        background-color:  #cdaf95;
+        text-align: center;
+        height: 60px; 
+        border-radius: 10px 10px 10px 10px;   
+    }
+    h1 {
+        padding-top: 15px;
+        padding-left: 250px;
+        font-family: 'Raleway', sans-serif
+        }
+    img {
+        width: 150px;
+        height: 200px;
+        display: block;
+        margin-left: 590px;
+        margin-right: auto; 
+        margin-top: -70px;
+        box-shadow: 2px 6px 12px #8b8989; 
+        border: 2px solid #cdaf95;
+        border-radius: 0px 10px 0px 0px;
+        }
+    
+    h2 {
+        padding-left: 15px; 
+        margin-top: -120px;
+        margin-bottom: -10px;
+    }
+    ul {
+        padding-left: 40px;    
+    }
+    
+    #info {
+        font-size: 0.75em;
+        padding-top: 10px;
+      }
+}

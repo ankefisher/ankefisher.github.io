@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.5;
     margin: 1.25rem auto;
     max-width: 760px;
@@ -9,29 +9,21 @@ body {
 header {
     background-color: #cdaf95;
     height: 80px; 
-    border-radius: 10px 10px 10px 10px;   
+   
 }
 footer {
     background-color:  #cdaf95;
     text-align: center;
     height: 60px; 
-    border-radius: 10px 10px 10px 10px;   
-}
+   
 h1 {
     padding-top: 15px;
     padding-left: 250px;
     font-family: 'Raleway', sans-serif
     }
 img {
-    width: 150px;
-    height: 200px;
-    display: block;
-    margin-left: 590px;
-    margin-right: auto; 
-    margin-top: -70px;
-    box-shadow: 2px 6px 12px #8b8989; 
-    border: 2px solid #cdaf95;
-    border-radius: 0px 10px 0px 0px;
+    width: 200px;
+    height: 20px;
     }
 
 h2 {
