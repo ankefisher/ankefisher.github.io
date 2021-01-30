@@ -111,19 +111,7 @@ footer {
 	height: 60px; 
 }
 
-.navbar-links ul {
-	margin: 0;
-	padding: 0;
-	display:flex;
-}
 
-.navbar-links li {
-	list-style: none;
-}
-.navbar-links li a {
-	text-decoration: none;
-	padding: 1rem;
-}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -145,7 +133,7 @@ footer {
 	}
 	
 	nav ul li {
-		float: left;
+		float: center;
 		display: flex;
 		justify-content: space-around;
 	}
@@ -160,19 +148,7 @@ footer {
 	nav ul.hide {
 		display: flex;
 	}
-	.navbar-links ul {
-		margin: 0;
-		padding: 0;
-		display:flex;
-	}
-
-	.navbar-links li {
-		list-style: none;
-	}
-	.navbar-links li a {
-		text-decoration: none;
-		padding: 1rem;
-	}
+	
 	/* Inline-Block             */
 	/*
 			nav li {display: inline-block;}
@@ -190,7 +166,7 @@ footer {
 	display: none;
 	}
 	nav ul li {
-		float: left;
+		float: center;
 		display: flex;
 		justify-content: space-around;
 	}
@@ -221,19 +197,6 @@ footer {
 		height: auto;
 		border: 1px solid #bbb;
 	}
-	.navbar-links ul {
-		margin: 0;
-		padding: 0;
-		display:flex;
-	}
-
-	.navbar-links li {
-		list-style: none;
-	}
-	.navbar-links li a {
-		text-decoration: none;
-		padding: 1rem;
-	}
 }
 
 /* Desktop Views ****************************/
@@ -243,7 +206,7 @@ footer {
 	}
 	
 	nav ul li {
-		float: left;
+		float: center;
 		display: flex;
 		justify-content: space-around;
 	}
@@ -262,18 +225,5 @@ footer {
 		grid-column: span 1;
 	}	
 
-	.navbar-links ul {
-		margin: 0;
-		padding: 0;
-		display:flex;
-	}
-
-	.navbar-links li {
-		list-style: none;
-	}
-	.navbar-links li a {
-		text-decoration: none;
-		padding: 1rem;
-	}
 }
 
