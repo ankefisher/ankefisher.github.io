@@ -140,7 +140,6 @@ footer {
 		}
 	
 		nav ul li {
-			float: center;
 			display: flex;
 		}
 
@@ -185,7 +184,6 @@ footer {
 	}
 
 	nav ul li {
-		float: center;
 		display: flex;
 	}
 
@@ -234,7 +232,6 @@ footer {
 	}
 
 	nav ul li {
-		float: center;
 		display: flex;
 	}
 
