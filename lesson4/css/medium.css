@@ -226,12 +226,13 @@ footer {
 }
 
 /* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em)  {
 	nav button {
 		display: none;
 	}
 
 	nav ul li {
+
 		display: flex;
 	}
 
@@ -259,5 +260,5 @@ footer {
 	.navbar-links li {	
 		flex: 1 1 100%;
 		text-align: center;
-	}	
+	}
 }
