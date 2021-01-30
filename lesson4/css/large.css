@@ -135,7 +135,6 @@ footer {
 	nav ul li {
 		float: center;
 		display: flex;
-		justify-content: space-around;
 	}
 
 	nav ul { 
@@ -168,8 +167,8 @@ footer {
 	nav ul li {
 		float: center;
 		display: flex;
-		justify-content: space-around;
 	}
+
 	nav ul li a {
 		border: none;
 		border-right: 1.5px solid rgba(0, 0, 0, 0.3);
@@ -208,7 +207,6 @@ footer {
 	nav ul li {
 		float: center;
 		display: flex;
-		justify-content: space-around;
 	}
 	
 	nav a {

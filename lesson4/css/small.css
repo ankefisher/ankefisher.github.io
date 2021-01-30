@@ -142,7 +142,6 @@ footer {
 	nav ul li {
 		float: center;
 		display: flex;
-		justify-content: space-around;
 	}
 	
 	nav ul li a {
@@ -194,7 +193,6 @@ footer {
 	
 	nav ul li {
 		display: flex;
-		justify-content: space-around;
 	}
 
 	nav ul li a {
@@ -251,7 +249,6 @@ footer {
 
 	nav ul li {
 		display: flex;
-		justify-content: space-around,
 	}
 
 	nav ul li a {
