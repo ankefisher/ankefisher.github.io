@@ -108,7 +108,21 @@ section {
 
 footer {
 	text-align: center;
-    height: 60px; 
+	height: 60px; 
+}
+
+.navbar-links ul {
+	margin: 0;
+	padding: 0;
+	display:flex;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+.navbar-links li a {
+	text-decoration: none;
+	padding: 1rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -132,17 +146,32 @@ footer {
 	
 	nav ul li {
 		float: left;
+		display: flex;
+		justify-content: space-around;
 	}
 
 	nav ul { 
-		display: grid;
+		display: flex;
 		/*grid-template-columns: repeat(5, 1fr);*/
 		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 		margin-left: 2%;
 	}
 
 	nav ul.hide {
-		display: block;
+		display: flex;
+	}
+	.navbar-links ul {
+		margin: 0;
+		padding: 0;
+		display:flex;
+	}
+
+	.navbar-links li {
+		list-style: none;
+	}
+	.navbar-links li a {
+		text-decoration: none;
+		padding: 1rem;
 	}
 	/* Inline-Block             */
 	/*
@@ -162,6 +191,8 @@ footer {
 	}
 	nav ul li {
 		float: left;
+		display: flex;
+		justify-content: space-around;
 	}
 	nav ul li a {
 		border: none;
@@ -173,7 +204,7 @@ footer {
 	}
 
 	nav ul.hide {
-		display: block;
+		display: flex;
 	}
 
 	main {
@@ -190,6 +221,19 @@ footer {
 		height: auto;
 		border: 1px solid #bbb;
 	}
+	.navbar-links ul {
+		margin: 0;
+		padding: 0;
+		display:flex;
+	}
+
+	.navbar-links li {
+		list-style: none;
+	}
+	.navbar-links li a {
+		text-decoration: none;
+		padding: 1rem;
+	}
 }
 
 /* Desktop Views ****************************/
@@ -200,6 +244,8 @@ footer {
 	
 	nav ul li {
 		float: left;
+		display: flex;
+		justify-content: space-around;
 	}
 	
 	nav a {
@@ -207,7 +253,7 @@ footer {
 	}
 
 	nav ul.hide {
-		display: block;
+		display: flex;
 	}
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -215,4 +261,19 @@ footer {
 	article:nth-child(3) {
 		grid-column: span 1;
 	}	
+
+	.navbar-links ul {
+		margin: 0;
+		padding: 0;
+		display:flex;
+	}
+
+	.navbar-links li {
+		list-style: none;
+	}
+	.navbar-links li a {
+		text-decoration: none;
+		padding: 1rem;
+	}
 }
+
