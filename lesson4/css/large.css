@@ -147,6 +147,12 @@ footer {
 	nav ul.hide {
 		display: flex;
 	}
+
+		.navbar-links li {
+			flex: 1 1 100%;
+			text-align: center;
+			display: inline-block
+	}
 	
 	/* Inline-Block             */
 	/*
@@ -196,6 +202,12 @@ footer {
 		height: auto;
 		border: 1px solid #bbb;
 	}
+
+	.navbar-links li {
+		flex: 1 1 100%;
+		text-align: center;
+		display: inline-block
+	}
 }
 
 /* Desktop Views ****************************/
@@ -222,6 +234,11 @@ footer {
 	article:nth-child(3) {
 		grid-column: span 1;
 	}	
+	.navbar-links li {
+		flex: 1 1 100%;
+		text-align: center;
+		display: inline-block;
+	}
 
 }
 

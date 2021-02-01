@@ -164,6 +164,7 @@ footer {
 		.navbar-links li {
 			flex: 1 1 100%;
 			text-align: center;
+			display: inline-block
 		}		
 	
 	/* Inline-Block             */
@@ -223,6 +224,7 @@ footer {
 	.navbar-links li {
 		flex: 1 1 100%;
 		text-align: center;
+		display: inline-block
 }
 
 /* Desktop Views ****************************/
@@ -260,5 +262,6 @@ footer {
 	.navbar-links li {	
 		flex: 1 1 100%;
 		text-align: center;
+		display: inline-block
 	}
 }
