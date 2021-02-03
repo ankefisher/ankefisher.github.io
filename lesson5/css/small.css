@@ -101,7 +101,7 @@ footer {
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: tomato;
+	background-color:  #e26d5c;
 }
 .navigation {
 	list-style: none;
@@ -125,20 +125,11 @@ nav {
 	display: block;
 }
 
-section-1 {
-	background-color: #ffe1a8;
-	width: 767px;
+#section1 {
+	box-shadow: 0 5px 15px #ffe1a8;;
 }
  
-section-2 {
-	background-color: #ffe1a8;
-}
-
-section-3 {
-	background-color: #ffe1a8;
-}
-
-section-4 {
+#section2 {
 	background-color: #ffe1a8;
 }
 
