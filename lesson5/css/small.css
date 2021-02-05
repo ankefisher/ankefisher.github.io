@@ -73,7 +73,9 @@ h4 {
 	font-size: 1.5rem;
 	text-align: center;
 	color: #472d30;
-	font-family: 'Raleway', sans-serif
+	font-family: 'Raleway', sans-serif;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 nav {
