@@ -146,5 +146,17 @@
 		padding-top: 50px;
 	}
 
+	#pancakes {
+        font-size: 18px;
+	} 
+	
+	.weather-summary{
+		margin-left: 30px;
+		margin-bottom: 40px;
+    }
+    .weather-summary p{
+		font-size: 16px;
+		margin-left: 10px;
+	}
 
 }
