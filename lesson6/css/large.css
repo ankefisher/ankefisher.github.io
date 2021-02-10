@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	table{
+        font-size: 18px;
+	}
+	
+
+	#top-h1 {
+        margin-top: 20px;
+        margin-right: 40px;
+	}
+	
+
+}
