@@ -1,4 +1,4 @@
-function (){
+function windchill (){
     const hightemp = 45;
     const windspeed = 5;
     let windchill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
@@ -11,3 +11,4 @@ function (){
     }
     document.getElementById('windchill').innerHTML = windchill;
   };
+
