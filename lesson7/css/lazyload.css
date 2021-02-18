@@ -1,0 +1,23 @@
+h1 {
+	font-size: 4rem;
+	text-align: center;
+	color: #472d30;
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	margin: 20px 0px 20px 0px;
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+
