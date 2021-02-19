@@ -1,23 +1,33 @@
+body{
+	font-family: 'Raleway', sans-serif;	
+	background-color: #71b1ee;
+}
+
+main {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 h1 {
-	font-size: 4rem;
 	text-align: center;
-	color: #472d30;
-	font-family: 'Raleway', sans-serif;
+	color: #e7e5ee;
+	font-size: 2.5em;	
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	border: 3px solid #e7e5ee;
+	padding: 2px;
+	filter: blur(0em);
+	transition: filter 2s;	
 }
 
-section {
-	margin: 20px 0px 20px 0px;
+img[data-src] {
+    filter: blur(0.2em)
 }
 
-[data-src] {
-    min-width: 50px;
-    min-height: 50px;
-}
+
 
 
