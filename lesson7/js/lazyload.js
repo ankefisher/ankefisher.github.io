@@ -29,3 +29,6 @@ if ('intersectionObserver' in window) {
         loadImages(img);
     });
 }
+
+// used work
+// demonstration during virtual lab
