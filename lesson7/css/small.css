@@ -253,7 +253,6 @@ figcaption {
 }
 
 img {
-	padding: 2px;
 	filter: blur(0em);
 	transition: filter 2s;	
 }
