@@ -12,7 +12,7 @@ const imgOptions = {
     threshold: 0   
 };
 
-if ('intersectionObserver' in window) {
+if ('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver((items) => {
       items.forEach((item) => {
         if (item.isIntersecting) {
