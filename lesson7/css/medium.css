@@ -158,7 +158,7 @@
 		margin-left: 10px;
 	}
 
-	.containerb {
+	.containergrid {
         margin: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr;

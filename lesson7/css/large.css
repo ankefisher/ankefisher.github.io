@@ -18,7 +18,7 @@
         margin-right: 40px;
 	}
 
-	.containerb {
+	.containergrid {
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -28,9 +28,5 @@
     }
     
     figcaption {
-        font-size: 1.5rem;
-    
-    
-	
-
-}
+		font-size: 1.5rem;
+	}
