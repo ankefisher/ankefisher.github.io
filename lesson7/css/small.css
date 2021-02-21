@@ -239,18 +239,7 @@ figure {
 	padding: 20px;
 	border-radius: 5px;
 }
-figcaption {
-	display: block;
-	font-family: 'Exo', sans-serif;
-	font-size: 2rem;
-	text-align: center;
-	margin-top: 30px;
-	color:  #472d30;
-}
 
-.gallery:hover {
-	box-shadow: 0 0 50px  #e26d5c;
-}
 
 img {
 	filter: blur(0em);
@@ -260,6 +249,12 @@ img {
 img[data-src] {
     filter: blur(0.2em)
 }
+
+figcaption {
+	display: none;
+}
+
+	
 
 /* used work */
 /* https://www.w3schools.com/tags/tag_figure.asp */
