@@ -7,7 +7,15 @@ body {
 }
 
 /* phone or baseline views **************************/
-header,
+header {
+	display:flex;
+    justify-content:center;
+    background-color:#15109A;
+    color:#c4f0ff;
+    padding:10px;
+}
+
+
 footer {
 	background-color: #ffe1a8;
 	display: flex;
