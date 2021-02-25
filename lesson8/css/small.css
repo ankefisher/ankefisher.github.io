@@ -254,6 +254,85 @@ figcaption {
 	display: none;
 }
 
+form {
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #723d46;
+    border-radius: 10px;
+    padding: .5rem 2%;
+	max-width: 100%;
+	background-color: #ffe1a8;;
+}
+
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+	color:  #723d46;
+	font-weight: 900;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    max-width: 93%;
+}
+
+form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    max-width: 100%;
+}
+
+.space {
+    margin-top: -15px;
+    padding: .5rem;
+    width: 94%;
+    height: 215px;
+    border-radius: 5px;
+}
+
+form label.top input:required {
+    border-left: #e26d5c solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#white {
+    background-color: white;
+    width: 200px;
+    color: #555;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
 	
 
 /* used work */
