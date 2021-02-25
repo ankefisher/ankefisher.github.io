@@ -163,7 +163,20 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 1080px;
-    }
+	}
+	
+	form label.top,
+	form div {
+   		max-width: 420px;
+	}
+	.space {
+    	width: 420px;
+	}
+
+	form input.submitBtn {
+    	margin-left: 70px;
+    	width: 50%;
+  	}
 	
 
 }
