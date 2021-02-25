@@ -3,7 +3,7 @@ body{
     margin: auto;
 }
 table, th, td {
-    border: 2px solid rgb(180, 178, 178);
+    border: 2px solid #b4b2b2;
     border-collapse: collapse;
     text-align: center;
     padding: 8px;
@@ -48,3 +48,6 @@ table, th, td {
     font-style: italic;
 }
 
+
+/* used work */
+/* https://www.w3schools.com/tags/att_td_colspan.asp */
