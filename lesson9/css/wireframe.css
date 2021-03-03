@@ -1,0 +1,29 @@
+body{
+	font-family: 'Raleway', sans-serif;	
+	background-color:#c9cba3;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	color: #472d30;
+	font-size: 2.5em;	
+}
+
+p {
+	text-align: center;
+	color: #472d30;
+	font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+	background-color:  #ffe1a8;;
+}
