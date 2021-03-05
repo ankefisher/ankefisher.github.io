@@ -176,7 +176,64 @@
 	form input.submitBtn {
     	margin-left: 70px;
     	width: 50%;
-  	}
-	
+	  }
+	  
+	  townbox {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		max-height: 285px;
+
+	}
+
+	townbox h1 {
+		border-bottom: transparent dotted 5px;
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	townbox h2 {
+		direction: ltr;
+		padding: 0 15px;
+		font-size: 20px;
+		margin-top: 90px;
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	townbox h3,
+	townbox h4,
+	townbox h5 {
+		direction: ltr;
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	townbox h3 {
+		margin-top: -100px;
+	}
+
+	townbox h4 {
+		margin-top: -75px;
+	}
+
+	townbox h5 {
+		margin-top: -50px;
+	}
+
+	townbox img {
+		height: 280px;
+		margin-top: 2px;
+		margin-right: 25px;
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	townbox:nth-child(3) {
+		direction: rtl;
+		padding: 10px 10px 10px 35px;
+		width: 82%;
+	}
+
 
 }
