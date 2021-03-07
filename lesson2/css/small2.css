@@ -35,7 +35,6 @@ h3 {
     text-align: center;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -51,8 +50,13 @@ h3 {
     box-shadow: 2px 2px 22px;
 }
 
+.chalk {
+    max-width: 100px;
+}
+
+
 p {
-    font-family: 'Exo', sans-serif;
+    ffont-family: 'Exo', sans-serif;
     padding: 10px 50px;
     line-height: 25px;
     text-align: center;
@@ -73,4 +77,54 @@ footer {
 img {
     margin-left: 50px;
     margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 96%;
+    }
+
+    .grid-item {
+        min-width: 96%;
+    }
+
+    img {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 100%;
+    }
+
+    .grid-item {
+        min-width: 100%;
+    }
+
+    img {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
 }

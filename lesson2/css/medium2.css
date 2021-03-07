@@ -1,81 +1,130 @@
-@media only screen and (min-width: 32.5em) 
-{
+body {
+    font-size: 18px;
+    max-width: 1300px;
+    display: float;
+    margin: 1.25rem auto;
+    font-family: 'Exo', sans-serif;
+}
+
+header {
+    background-color: #cdaf95;
+    height: 80px; 
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5em;
+    line-height: 50px;
+    padding-top: 10px;
+    color: #8B0000;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #8B0000;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.grid-item {
+    max-width: 400px;
+    padding: 5px;
+    background-color: #cdaf95;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px;
+}
+
+.chalk {
+    max-width: 100px;
+}
+
+
+p {
+    ffont-family: 'Exo', sans-serif;
+    padding: 10px 50px;
+    line-height: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color:  #cdaf95;
+    height: 60px; 
+    border-radius: 10px 10px 10px 10px;  
+    text-align: center;
+}
+    
+#info {
+    font-size: 0.75em;
+    padding-top: 10px;   
+}
+
+img {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
     body {
-        font-size: 18px;
-        max-width: 1300px;
-        display: float;
-        margin: 1.25rem auto;
-        font-family: 'Exo', sans-serif;
+        margin-left: 0px;
     }
-    
-    header {
-        background-color: #cdaf95;
-        height: 80px; 
-        border-radius: 10px 10px 10px 10px;
-        margin-bottom: 20px;
-    }
-    
-    h1 {
-        text-align: center;
-        font-family: "Raleway", sans-serif;
-        font-size: 2.5em;
-        line-height: 50px;
-        padding-top: 10px;
-        color: #8B0000;
-    }
-    
-    h2 {
-        font-family: "Raleway", sans-serif;
-        font-size: 1.5em;
-        text-align: center;
-        color: #8B0000;
-    }
-    
-    h3 {
-        font-family: "Raleway", sans-serif;
-        font-size: 1em;
-        text-align: center;
-    }
-    
-    
+
     .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;
-        padding: 5px;
+        grid-template-columns: 1fr 1fr;
     }
-    
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 96%;
+    }
+
     .grid-item {
-        max-width: 400px;
-        padding: 5px;
-        background-color: #cdaf95;
-        border-radius: 20px;
-        box-shadow: 2px 2px 22px;
+        min-width: 96%;
     }
-    
-    p {
-        font-family: 'Exo', sans-serif;
-        padding: 10px 50px;
-        line-height: 25px;
-        text-align: center;
-    }
-    
-    footer {
-        background-color:  #cdaf95;
-        height: 60px; 
-        border-radius: 10px 10px 10px 10px;  
-        text-align: center;
-    }
-        
-    #info {
-        font-size: 0.75em;
-        padding-top: 10px;   
-    }
-    
+
     img {
         margin-left: 50px;
         margin-top: 20px;
-      
+    }
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 100%;
+    }
+
+    .grid-item {
+        min-width: 100%;
+    }
+
+    img {
+        margin-left: 50px;
+        margin-top: 20px;
     }
     
 }
