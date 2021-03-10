@@ -15,13 +15,22 @@ body {
     border-radius: 10px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
+#motto {
+    float: right;
+    color: red;
+    margin-right: 10px;
+}
 
 h1 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 26px;
-    color: #912a2d;
+    color:blue; 
     font-variant: small-caps;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+}
+
+h4 {
+   margin-top: -30px;
 }
 
 #top-h1 {
@@ -124,7 +133,7 @@ h2 {
 .top-heading{
     margin-top: -5px;
 }
-#motto, .town-motto {
+.town-motto {
     text-align: center;
     font-family: "Poppins", Helvetica, sans-serif;
     font-style: italic;
