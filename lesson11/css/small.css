@@ -1,9 +1,14 @@
 /*HEADER AND NAV mobile view-------------------------------------*/
 
 body {
-    background-color: #e4f7cd;
-    background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
-    margin: auto;
+    font-size: 20px;
+	font-family: 'Exo', sans-serif;
+	background-color: #c9cba3;
+}
+
+header,
+footer {
+	background-color: #ffe1a8;
 }
 
 #icon {
@@ -11,14 +16,14 @@ body {
     position: sticky;
     top: 0;
     max-width: 65px;
-    border: 2px solid #912a2d;
-    border-radius: 10px;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 #motto {
     float: right;
-    color: red;
     margin-right: 10px;
+	margin-top: -35px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family:'Exo', sans-serif;
 }
 
 h1 {
@@ -39,9 +44,7 @@ h4 {
     margin-right: 10px;
     font-variant: small-caps;
 }
-#sage {
-    display: none;
-}
+
 
 nav {
     margin: 0 auto;
@@ -52,7 +55,7 @@ nav {
 
 .navigation {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -61,6 +64,44 @@ nav {
     height: 45px;
 }
 
+nav a:hover {
+	background-color:#723d46;
+    color: white;
+}
+
+nav ul li a {
+	display: block;
+	color: #723d46;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 800;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: lighter;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: #912a2d;
+    /*background-image: linear-gradient( #a5040a, rgb(255, 238, 0));*/
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+
+.ham a {
+    text-align: left;
+}
 .container {
     display: inline-block;
     cursor: pointer;
@@ -70,8 +111,8 @@ nav {
 #menu {
     margin-top: 2px;
     margin-left: 17px;
-
 }
+
 
 .bar1,
 .bar2,
@@ -97,30 +138,7 @@ nav {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.navigation li {
-    display: none;
-}
 
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    font-weight: lighter;
-    color: white;
-    letter-spacing: .1em;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.active {
-    background-color: #912a2d;
-    /*background-image: linear-gradient( #a5040a, rgb(255, 238, 0));*/
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
-}
-
-.ham a {
-    text-align: left;
-}
 
 h2 {
     font-family: "Neucha", fantasy, cursive;
@@ -585,10 +603,8 @@ townbox:nth-child(1) {
 }
 
 footer {
-    background-color: rgb(141, 213, 247);
-    background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
+    background-color: #ffe1a8;
     padding: 12px 0px .1px 0px;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
 footer p {

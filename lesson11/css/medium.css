@@ -9,15 +9,6 @@
     #icon {
         margin: 0px 20px;
         max-width: 150px;
-        border: 3px solid #912a2d;
-    }
-
-    #sage {
-        display: inline-block;
-        width: 100%;
-        box-shadow: rgb(227, 241, 252) 0px 0px 15px;
-        margin-top: -55px;
-        margin-bottom: 5px;
     }
 
     h1 {
@@ -30,6 +21,7 @@
 
     #motto {
         font-size: 16px;
+        margin-top: -80px;
     }
 
     nav {
@@ -40,21 +32,19 @@
 
     .navigation {
         display: flex;
+        height: 60px;
     }
 
     .navigation li {
         display: block;
+        padding-left: 100px;
         /* change state in small view */
-        flex: 1 1 100%;
     }
 
     .navigation a {
-        font-size: 14px;
-        text-align: center;
-        font-weight: unset;
-        letter-spacing: unset;
-        border-top: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        font-size: 16px;
+        text-align: justify;
+        border-top: none;   
     }
 
     .navigation a:hover {
