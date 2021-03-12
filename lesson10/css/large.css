@@ -1,0 +1,79 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	table{
+        font-size: 18px;
+	}
+	
+
+	#top-h1 {
+        margin-top: 20px;
+        margin-right: 40px;
+	}
+
+	.containergrid {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+    }
+    
+
+	figcaption {
+		display: block;
+		font-family: 'Exo', sans-serif;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 30px;
+		color:  #472d30;
+	}
+	
+	.gallery:hover {
+		box-shadow: 0 0 50px  #e26d5c;
+	}
+
+    townbox h1 {
+        font-size: 35px;
+    }
+
+    townbox h2 {
+        font-size: 15px;
+    }
+
+    townbox {
+        width: 93%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    townbox:nth-child(1) {
+        grid-row: 1;
+        grid-column: 3;
+
+    }
+
+    .cards {
+        margin: 50px auto 100px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 30px;
+    }
+
+    townbox img {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ }
