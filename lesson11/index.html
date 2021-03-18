@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anke Fisher</title>
+  <meta name="description" content="upload WDD230 assignments">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet" type="text/css"> 
+  <link href="css/medium.css" rel="stylesheet" type="text/css"> 
+  <link href="css/large.css" rel="stylesheet" type="text/css"> 
+</head>
+<body onload="currentdate()">
+  <div id="pancakes"></div>
+  <header>
+    <img id="logo" src="images/iconfinder_kweather_18095.png" alt="Logo">
+    <h1 id="top-h1">The Idaho Weather Hub</h1>
+    <div id="motto">The clearest forecast...regardless of the weather.</div>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">&#9776; Menu</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="sodasprings.html">Soda Springs</a></li>
+      <li><a href="fishhaven.html">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2> Welcome to your local weather forecast.</h2>
+    
+    <section id="section1"> 
+        <img class="banner" src="images/pexels-monicore-135157.jpg" alt="Banner"/>
+    </section>   
+        
+    
+    <div class="cards"></div>  
+      
+  </main>
+  
+ <footer>
+  <p id="info">
+    &copy; The Idaho Weather Hub | Attributions | Anke Fisher
+    <br>
+    Current date: <span id="currentdate"></span></p>
+ </footer>
+ <script src="js/currentdate.js"> </script>
+ <script src="js/prestonjs.js"> </script>
+ <script src="js/pancakeFriday.js"></script>
+ <script src="js/towns.js"></script>
+</body>
+</html> 

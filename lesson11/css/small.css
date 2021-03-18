@@ -6,36 +6,22 @@ body {
 	background-color: #c9cba3;
 }
 
-header,
-footer {
-	background-color: #ffe1a8;
-}
-
 #icon {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    max-width: 65px;
+    max-width: 35px;
 }
-#motto {
-    float: right;
-    margin-right: 10px;
-	margin-top: -35px;
-    padding-right: 10px;
-    font-size: 12px;
-    font-family:'Exo', sans-serif;
+
+header {
+    background-color: #ffe1a8;
 }
 
 h1 {
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 26px;
-    color:blue; 
-    font-variant: small-caps;
-    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
-}
-
-h4 {
-   margin-top: -30px;
+    font-size: 2.5rem;
+	text-align: center;
+	color: #472d30;
+	font-family: 'Raleway', sans-serif;
 }
 
 #top-h1 {
@@ -45,18 +31,16 @@ h4 {
     font-variant: small-caps;
 }
 
-
 nav {
     margin: 0 auto;
-    background-color: #9b5153;
-    background-image: linear-gradient(to right, #912a2d, #2094ca);
+    background-color: #e26d5c;
     margin-top: -21px;
 }
 
 .navigation {
     list-style: none;
-    padding-left: 0;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
 }
 
 .navigation li:first-child {
@@ -64,20 +48,20 @@ nav {
     height: 45px;
 }
 
-nav a:hover {
-	background-color:#723d46;
-    color: white;
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -10px;
 }
 
-nav ul li a {
-	display: block;
-	color: #723d46;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 1.3rem;
-	font-weight: 800;
+#menu {
+    margin-top: 2px;
+    margin-left: 17px;
+
 }
+
+
+
 
 .navigation li {
     display: none;
@@ -89,56 +73,21 @@ nav ul li a {
     text-align: left;
     text-decoration: none;
     font-weight: lighter;
-    color: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    color: #723d46;
 }
 
 .active {
-    background-color: #912a2d;
-    /*background-image: linear-gradient( #a5040a, rgb(255, 238, 0));*/
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+    color:#ffe1a8;
+}
+
+nav a:hover {
+	background-color:#723d46;
+	color: white;
 }
 
 .ham a {
     text-align: left;
 }
-.container {
-    display: inline-block;
-    cursor: pointer;
-    margin-top: -10px;
-}
-
-#menu {
-    margin-top: 2px;
-    margin-left: 17px;
-}
-
-
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-    opacity: 0;
-}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-
-
 
 h2 {
     font-family: "Neucha", fantasy, cursive;
@@ -151,50 +100,40 @@ h2 {
 .top-heading{
     margin-top: -5px;
 }
-.town-motto {
-    text-align: center;
+#motto, .town-motto {
+    text-align: right;
     font-family: "Poppins", Helvetica, sans-serif;
     font-style: italic;
     font-size: 15px;
-    margin-top: -10px;
     line-height: 2em;
 }
 
 /*Gallery Main--------------------------------------*/
-.gallery-title {
-    font-size: 28px;
+gallery {
+	width: 100%;
+	padding-bottom: 0px;
+	border-radius: 10px;
 }
 
-main,
-.containerb {
-    justify-content: center;
-    align-items: center;
-    margin: -5px 0 -10px 0;
+figure {
+	margin: 10px;
+	background-color:  #ffe1a8;
+	padding: 20px;
+	border-radius: 5px;
 }
 
-.gallery {
-    margin-top: -10px;
-    width: 100%;
-    padding-bottom: 25px;
+
+img {
+	filter: blur(0em);
+	transition: filter 2s;	
+}
+
+img[data-src] {
+    filter: blur(0.2em)
 }
 
 figcaption {
-    display: none;
-}
-
-
-h3 {
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 25px;
-    color: #912a2d;
-    text-shadow: rgb(167, 213, 248) 3px 3px 5px;
-    text-align: center;
-    line-height: .5;
-}
-
-p {
-    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+	display: none;
 }
 
 
@@ -585,7 +524,6 @@ townbox:nth-child(1) {
     color: black;
     font-size: 16px;
     font-weight: bolder;
-    background-image: url(https://janettekaymak.github.io/lesson9/wire-frame/images/desktop-frame.jpg);
     background-size: 20em;
     padding: 50px 5px 5px 5px;
     border-radius: 5px;
@@ -603,33 +541,19 @@ townbox:nth-child(1) {
 }
 
 footer {
-    background-color: #ffe1a8;
+    background-color:#ffe1a8;
     padding: 12px 0px .1px 0px;
 }
 
 footer p {
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Exo', sans-serif;
     font-size: 12px;
     line-height: 1.5;
     text-align: center;
     margin-top: -5px;
 }
 
-footer a {
-    background-color: #a5040a;
-    padding: 2px 3px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-}
 
-footer a:hover {
-    color: mediumblue;
-    border: mediumblue solid 1px;
-    background-color: white;
-    font-size: 14px;
-    transition: 1s;
-}
 
 #today {
     display: block;

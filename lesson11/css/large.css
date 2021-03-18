@@ -5,8 +5,9 @@
 
     #icon {
         min-width: 230px;
-        margin-left: 40px;
+        margin-left: 140px;
     }
+
 
     h1 {
         font-size: 90px;
@@ -27,12 +28,11 @@
 
     #motto {
         font-size: 22px;
-        margin-top: -75px;
     }
 
     .navigation a {
-        font-size: 22px;
-        
+        font-size: 20px;
+        padding: 20px;
     }
 
     /*Preston Page Main--------------------------*/
@@ -191,34 +191,29 @@
         max-width: 1090px;
     }
 
-    .containerb {
+    .containergrid {
         justify-content: center;
         align-items: center;
-        margin: -10px 0 0 0;
+        margin-left: 200px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1200px;
     }
+    
 
-    figcaption {
-        display: block;
-        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 14px;
-        text-align: center;
-
-    }
-
-    figure {
-        margin: 10px;
-        background-color: white;
-        padding: 30px 25px;
-        border-radius: 5px;
-    }
-
-    .gallery:hover {
-        box-shadow: 0 0 50px black;
-        transition: 1s;
-    }
+	figcaption {
+		display: block;
+		font-family: 'Exo', sans-serif;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 30px;
+		color:  #472d30;
+	}
+	
+	.gallery:hover {
+		box-shadow: 0 0 50px  #e26d5c;
+	}
+    
 
 
 
@@ -258,3 +253,4 @@
     /*footer-------------------------*/
 
 }
+

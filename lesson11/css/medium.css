@@ -9,7 +9,9 @@
     #icon {
         margin: 0px 20px;
         max-width: 150px;
+        border: 3px solid #912a2d;
     }
+
 
     h1 {
         font-size: 50px;
@@ -21,69 +23,34 @@
 
     #motto {
         font-size: 16px;
-        margin-top: -80px;
     }
 
-    nav {
-        background-color: #9b5153;
-        /* For browsers that do not support gradients */
-        background-image: linear-gradient(#912a2d, #2094ca);
-    }
 
     .navigation {
         display: flex;
-        height: 60px;
     }
 
     .navigation li {
         display: block;
-        padding-left: 100px;
         /* change state in small view */
+        flex: 1 1 100%;
     }
 
-    .navigation a {
-        font-size: 16px;
-        text-align: justify;
-        border-top: none;   
-    }
+    
 
-    .navigation a:hover {
-        background-color: #f8bf03;
-        background-image: linear-gradient(#a5040a, rgb(255, 238, 0));
-        box-shadow: lemonchiffon 0px 0px 55px;
-        transition: 1s;
-    }
 
     .navigation li:first-child {
         display: none;
     }
 
     /*Gallery Main-----------------------------------*/
-    .galleryMain {
-        max-width: 1080px;
-        margin: auto;
-    }
-
-    .gallery-title {
-        font-size: 40px;
-    }
-
-    .containerb {
-        margin: 0 20px;
+    .containergrid {
+        margin: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 1080px;
     }
-
-    figure {
-        margin: 5px;
-        padding: 15px;
-    }
-
-    .gallery {
-        border-radius: 10px;
-        padding-bottom: 0;
-    }
+	
 
     /*MAIN PRESTON PAGE-------------------------------------------*/
     .prestonMain {
