@@ -19,12 +19,11 @@
 	}
 
 	.containergrid {
-        justify-content: center;
-        align-items: center;
         margin: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 1200px;
+		max-width: 100%;
+		margin-left: -200px;
     }
     
 
