@@ -1,200 +1,27 @@
-/* Media Query for large+ views */
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	table{
+        font-size: 18px;
+	}
+	
 
-@media screen and (min-width: 1188px) {
-
-
-    #icon {
-        min-width: 230px;
-        margin-left: 140px;
-    }
-
-
-    h1 {
-        font-size: 90px;
-    }
-
-    #top-h1 {
+	#top-h1 {
         margin-top: 20px;
         margin-right: 40px;
-    }
+	}
 
-    h2 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-
-    #motto {
-        font-size: 22px;
-    }
-
-    .navigation a {
-        font-size: 20px;
-        padding: 20px;
-    }
-
-    /*Preston Page Main--------------------------*/
-    .prestonMain {
-        max-width: 900px;
-    }
-
-    .town-motto {
-        font-size: 22px;
-        margin-top: -10px;
-    }
-
-    .weather-summary {
-        top: 30px;
-        left: 30px;
-    }
-
-    .weather-summary p {
-        font-size: 20px;
-    }
-
-    .hero-box h3 {
-        margin-top: 5px;
-        font-size: 40px;
-    }
-
-    table {
-        font-size: 18px;
-    }
-
-    .prestonEvents,
-    .sodaEvents,
-    .fishEvents {
-        max-width: 50%;
-    }
-
-    .article,
-    .article-wide {
-        font-size: 17px;
-        margin: 35px 0px;
-        max-width: 45%;
-    }
-
-    #tent {
-        max-width: 50%;
-        border-radius: 15px;
-        float: right;
-        margin-top: -720px;
-    }
-
-    #contact {
-        display: block;
-        max-width: 1200px;
-    }
-
-    .graybox {
-        position: relative;
-        float: right;
-        height: 315px;
-        margin-top: -405px;
-        margin-right: 22px;
-    }
-
-    .graybox p {
-        line-height: 1.5;
-        height: 185px;
-    }
-
-    #map1 {
-        min-width: 46.5%;
-    }
-
-    .google-maps {
-        margin-left: 45px;
-    }
-
-    .social {
-        float: right;
-        margin-top: -55px;
-        padding: 20px 90px 0 40px;
-    }
-
-    /*----------- Home page MAIN --------------*/
-
-    #flashflood {
-        margin: 0 0 100px 0;
-        width: 100%;
-        height: 200px;
-    }
-
-    #storybox {
-        width: 350px;
-        margin: -275px auto 0 20px;
-        font-size: 21px;
-
-    }
-
-    #storybox p {
-        margin-top: -20px;
-        margin-left: 10px;
-    }
-
-    townbox h1 {
-        font-size: 35px;
-    }
-
-    townbox h2 {
-        font-size: 15px;
-    }
-
-    townbox p {
-        font-size: 14.5px;
-    }
-
-    townbox {
-        width: 93%;
-        margin: auto;
-        padding: 10px;
-    }
-
-    townbox:nth-child(1) {
-        grid-row: 1;
-        grid-column: 3;
-
-    }
-
-    .cards {
-        max-width: 1188px;
-        margin: 50px auto 100px auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 30px;
-    }
-
-    townbox img {
-        display: block;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    #pad {
-        display: none;
-    }
-
-    #desk {
-        display: block;
-    }
-
-
-    /*Gallery Main-------------------------*/
-
-    galleryMain {
-        max-width: 1090px;
-    }
-
-    .containergrid {
+	.containergrid {
         justify-content: center;
         align-items: center;
-        margin-left: 200px;
+        margin: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1200px;
@@ -213,44 +40,40 @@
 	.gallery:hover {
 		box-shadow: 0 0 50px  #e26d5c;
 	}
-    
 
-
-
-
-    /*Storm Center Form Main-------------------*/
-
-
-    h2 {
-        font-size: 60px;
+    townbox h1 {
+        font-size: 35px;
     }
 
-    .formMain {
-        max-width: 800px;
+    townbox h2 {
+        font-size: 15px;
     }
 
-    form label.sbs {
-        padding: .4rem 0;
+    townbox {
+        width: 93%;
+        margin: auto;
+        padding: 10px;
     }
 
-    h3.thankyou {
-        font-size: 34px;
+    townbox:nth-child(1) {
+        grid-row: 1;
+        grid-column: 3;
+
     }
 
-    footer p {
-        font-size: 16px;
+    .cards {
+        margin: 50px auto 100px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 30px;
     }
 
-    footer {
-        max-width: 1200px;
-        margin-bottom: 5px;
+    townbox img {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    footer a:hover {
-        font-size: 20px;
-    }
-
-    /*footer-------------------------*/
-
-}
-
+ }

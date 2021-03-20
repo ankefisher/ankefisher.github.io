@@ -1,115 +1,233 @@
-/*HEADER AND NAV mobile view-------------------------------------*/
-
 body {
-    font-size: 20px;
+	font-size: 20px;
 	font-family: 'Exo', sans-serif;
 	background-color: #c9cba3;
 }
 
-#icon {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    max-width: 35px;
+header,
+footer {
+	background-color: #ffe1a8;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
 }
 
-header {
-    background-color: #ffe1a8;
+header,
+nav,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
 }
 
+#logo {
+	width: 60px;
+	height: 60px;
+	margin-right: 650px;
+	margin-top: 50px;
+	margin-bottom: -100px;
+	margin-left: 300px;
+	}
+	
+#motto {
+	float: right;
+    margin-right: 118px;
+	margin-top: -35px;
+	margin-left: 50px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family:'Exo', sans-serif;
+	}
+
+#top-h1 {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	}
+	
 h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 	text-align: center;
 	color: #472d30;
 	font-family: 'Raleway', sans-serif;
 }
 
-#top-h1 {
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    font-variant: small-caps;
+h2 {
+	margin-left: 70px;
+	text-align: center;
+	color: #472d30;
+	font-size: 2rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #472d30;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #472d30;
+	font-family: 'Raleway', sans-serif;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 nav {
-    margin: 0 auto;
-    background-color: #e26d5c;
-    margin-top: -21px;
+	background-color: #e26d5c;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+	max-width: 50%;
 }
-
-.navigation {
-    list-style: none;
-    padding: 0;
-    font-family: 'Exo', sans-serif;
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
-
-.navigation li:first-child {
-    display: block;
-    height: 45px;
+nav ul li a {
+	display: block;
+	color: #723d46;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 800;
 }
-
-.container {
-    display: inline-block;
-    cursor: pointer;
-    margin-top: -10px;
-}
-
-#menu {
-    margin-top: 2px;
-    margin-left: 17px;
-
-}
-
-
-
-
-.navigation li {
-    display: none;
-}
-
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    font-weight: lighter;
-    color: #723d46;
-}
-
-.active {
-    color:#ffe1a8;
-}
-
 nav a:hover {
 	background-color:#723d46;
 	color: white;
 }
-
-.ham a {
-    text-align: left;
+.active {
+	color:#ffe1a8;
 }
 
-h2 {
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 38px;
-    color: #912a2d;
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+main picture {
+	display: none;
+	margin: 0.5rem;
+}
+
+footer {
+	flex: 0 1 100%;
+	height: 2rem;
+	font-size: 16px;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color:  #e26d5c;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
+}
+
+#section1 {
+	box-shadow: 0 10px 15px #ffe1a8;
+	margin-bottom: 20px;
+}
+ 
+#section2 {
+	background-color: #ffe1a8;
+	padding: 2px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+#section3{
+	background-color: #ffe1a8;
+	padding: 2px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+#section4{
+	background-color: #ffe1a8;
+	padding: 2px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	text-align: center;
+}
+
+.content-img1 {
+	width: 300px;
+  	height: 180px;
+	box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+	  
+.content-img2 {
+	width: 300px;
+	height: 180px;
+	box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+table{
+	font-size: 20px;
+}
+
+#motto {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 200px;
+	font-family: 'Exo', sans-serif;
+	font-size: 11px;
+}
+#pancakes{
+    display: none;
+    background-color:#e26d5c;
+    font-size: 16px;
     text-align: center;
-    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
-    margin-bottom: 0px;
 }
-.top-heading{
-    margin-top: -5px;
-}
-#motto, .town-motto {
-    text-align: right;
-    font-family: "Poppins", Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    line-height: 2em;
+#pancakes.show{
+    display: block;
 }
 
-/*Gallery Main--------------------------------------*/
-gallery {
+.weather-summary{
+	position: absolute;
+    background: radial-gradient(#eee,  #c9cba3);
+    border: 1px solid #472d30;
+    color:  #472d30;
+	border-radius: 15px;
+	margin-top: -220px;
+	margin-left: 20px;
+	opacity: .8;
+}
+.weather-summary p{
+    text-align: left;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: 800;
+}
+
+.gallery{
 	width: 100%;
 	padding-bottom: 0px;
 	border-radius: 10px;
@@ -136,210 +254,31 @@ figcaption {
 	display: none;
 }
 
-
-/*MAIN PRESTON HOME PAGE---------------------------------------*/
-#pancakes {
-    display: none;
-    background-color: lemonchiffon;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 0 2px;
-    text-align: center;
-}
-
-#pancakes.show {
-    display: block;
-}
-.town-name{
-    margin-top: 0;
-}
-.hero-box {
-    position: relative;
-    margin-top: -3px;
-}
-
-.hero-box h3 {
-    margin-top: 0px;
-    padding: 15px 0 0 0;
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 20px;
-    color: rgb(253, 215, 1);
-    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
-}
-
-.yellow {
-    color: rgb(253, 215, 1);
-    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
-    line-height: .5em;
-}
-
-.hero-box p {
-    margin-top: -1px;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#heroimg img {
-    width: 100%;
-}
-
-
-.weather-summary {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgb(1, 85, 134, 0.85);
-    border: rgb(1, 82, 136) solid 2px;
-    color: white;
-    padding: 0 15px;
-    max-width: 45%;
-    border-radius: 60px 0 60px 0;
-    box-shadow: 0 0 55px lemonchiffon;
-}
-
-.weather-summary p {
-    text-align: left;
-    font-size: 14px;
-    line-height: .7;
-}
-.hide{
-    display: none;
-}
-
-#rodeo {
-    max-width: 550px;
-    border-radius: 5px;
-}
-
-#widerodeo {
-    display: none;
-}
-
-#forecast {
-    display: none;
-}
-.prestonEvents, .fishEvents, .sodaEvents{
-    padding: 0px 0px 15px 0;
-    background-color: lemonchiffon;
-    margin-bottom: 30px;
-    margin-top: -5px;
-    border: gold dotted 5px;
-}
-eventbox p{
-    text-align: center;
-    line-height: .5em;
-}
-
-.article,
-.article-wide {
-    margin: 0 20px;
-    line-height: 1.5;
-}
-
-.article-wide a:hover,
-.google-maps a:hover, #weather-link a:hover {
-    color: blue;
-    text-shadow: blue 2px 2px 3px;
-}
-
-#big {
-    display: none;
-}
-
-.google-maps {
-    position: relative;
-    text-align: center;
-}
-
-#tent {
-    max-width: 100%;
-}
-
-.graybox {
-    padding: 20px 15px;
-    margin: 20px 25px;
-    border: lightgray dotted 2px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 30px gray;
-}
-
-.graybox p {
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: dimgray;
-    font-size: 15px;
-}
-
-.graybox a img {
-    margin: 5px;
-}
-
-.social {
-    position: relative;
-    margin-left: 55px;
-}
-
-.social a:link,
-a:visited {}
-
-.social a:hover {
-    background-color: cyan;
-    transition: 1.5s;
-}
-
-#map1 {
-    display: none;
-}
-
-#map {
-    max-width: 100%;
-    margin-bottom: -5px;
-}
-#weather-link {
-    margin-left: 50px;
-    margin-top: -17px;
-}
-#imagesrc, #imagesrc2, #imagesrc3, #imagesrc4, #imagesrc5{
-    display: none;
-}
-
-
-/*Storm Center Form Main----------------------*/
-.form-title {
-    text-align: center;
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 28px;
-}
-
-.formMain {
-    max-width: 465px;
-    margin: auto;
-}
-
 form {
-    font-family: "Poppins", sans-serif;
-    color: #7c0206;
 }
 
 form fieldset {
-    margin: 1rem 0 3rem 0;
-    border: 1px solid #1e316d;
+    margin: 2rem 0;
+    border: 1px solid #723d46;
     border-radius: 10px;
     padding: .5rem 2%;
-    max-width: 100%;
+	max-width: 100%;
+	background-color: #ffe1a8;;
 }
+
 
 form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
-    color: #1e316d;
+	color:  #723d46;
+	font-weight: 900;
 }
 
 form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    max-width: 93%;
+    max-width: 80%;
 }
 
 form label.top input,
@@ -372,11 +311,11 @@ form label.sbs {
 }
 
 form label.top input:required {
-    border-left: #aa2a2e solid 6px;
+    border-left: #e26d5c solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left:  #c9cba3 solid 6px;
 }
 
 .flexly {
@@ -394,51 +333,6 @@ form label.top input:required:valid {
     margin: 0 15px;
 }
 
-form input.submitBtn {
-    border: none;
-    background-color: #912a2d;
-    color: white;
-    border-radius: 10px;
-    padding: .75rem 1.5rem;
-    margin: 0 0 20px 40px;
-    width: 75%;
-    max-width: 20rem;
-}
-
-h3.thankyou {
-    font-family: "Neucha", fantasy, cursive;
-    text-align: center;
-    line-height: 1.25em;
-    font-size: 20px;
-    color: #912a2d;
-    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
-    margin: 50px;
-
-}
-
-.thanksImg {
-    display: none;
-}
-
-
-/*main LESSON 9 HOME-------------------------*/
-#flashflood {
-    display: block;
-    margin: 133px auto 0 auto;
-    width: 100%;
-}
-
-#storybox {
-    position: absolute;
-    background-color: rgb(141, 215, 245, .85);
-    padding: 0 15px;
-    margin: -255px 50px 0px 50px;
-    font-family: "Poppins", Helvetica, sans-serif;
-    text-align: justify;
-    border: #a5040a dotted 5px;
-    border-radius: 10px;
-}
-
 townbox h1,
 townbox h2,
 townbox h3,
@@ -449,36 +343,26 @@ townbox h6 {
 }
 
 townbox h1 {
-    font-family: "Neucha", fantasy, cursive;
     font-size: 32px;
-    font-variant: none;
-    border-bottom: gold dotted 5px;
+	color: #472d30;
+	font-family: 'Raleway', sans-serif;
 }
 
 townbox h2 {
-    text-shadow: transparent 3px 3px 5px;
-    color: black;
-    font-family: "Poppins", Helvetica, sans-serif;
-    font-style: italic;
+    color: #472d30;
     font-size: 18px;
-    margin-bottom: 35px;
-
+	margin-bottom: 35px;
+	margin-left: -20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 townbox h3,
 townbox h4,
 townbox h5 {
-    text-shadow: transparent 3px 3px 5px;
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    line-height: .3em;
-}
-
-townbox h5 {
-    margin-top: -1px;
+    color: #472d30;
+    font-size: 18px;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
 }
 
 townbox img {
@@ -488,11 +372,10 @@ townbox img {
 townbox {
     width: 85%;
     margin: auto;
-    background-color: lemonchiffon;
-    border: gold dotted 5px;
+    background-color: #ffe1a8;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: darkslategray 0 0 20px;
+    box-shadow: #472d30 0 0 20px;
 }
 
 .cards {
@@ -509,72 +392,10 @@ townbox:nth-child(1) {
 
 }
 
-/*---------------------------------------footer------------------------*/
-
-.bottom {
-    text-align: center;
-    font-family: Poppins, Helvetica, sans-serif;
-    margin: 50px 0 20px 0;
-
-}
-
-.bottom a {
-    text-decoration: none;
-    text-shadow: 1px 1px white;
-    color: black;
-    font-size: 16px;
-    font-weight: bolder;
-    background-size: 20em;
-    padding: 50px 5px 5px 5px;
-    border-radius: 5px;
-    border: dotted 3px;
-}
-
-.bottom a:hover {
-    font-size: 20px;
-    transition: 1s;
-}
-
-#desk,
-#pad {
-    display: none;
-}
-
-footer {
-    background-color:#ffe1a8;
-    padding: 12px 0px .1px 0px;
-}
-
-footer p {
-    font-family: 'Exo', sans-serif;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: -5px;
-}
 
 
+	
 
-#today {
-    display: block;
-}
-
-/* the onclick JS toggles the .reponsive class from display none 
-(.navigation li) to display block because the responsive class is 
-added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-    display: block;
-}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
-
+/* used work */
+/* https://www.w3schools.com/tags/tag_figure.asp */
+/* https://www.w3schools.com/tags/tag_figcaption.asp */
