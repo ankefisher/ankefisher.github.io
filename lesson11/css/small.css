@@ -18,8 +18,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 767px;
-	margin: 0 auto;
+	max-width: 1700px;
 }
 
 #logo {
@@ -81,8 +80,8 @@ h4 {
 nav {
 	background-color: #e26d5c;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
-	max-width: 50%;
+
+	max-width: 100%;
 }
 nav ul {
 	list-style-type: none;
@@ -263,7 +262,9 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
 	max-width: 100%;
-	background-color: #ffe1a8;;
+	background-color: #ffe1a8;
+	max-width: 1100px;
+	margin-left: 50px;
 }
 
 
@@ -391,7 +392,6 @@ townbox:nth-child(1) {
     grid-row: 3;
 
 }
-
 
 
 	
