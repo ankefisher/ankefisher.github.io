@@ -12,6 +12,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+	margin-left: 30px;
 }
 
 header,
@@ -19,6 +20,11 @@ nav,
 main,
 footer {
 	max-width: 1700px;
+}
+
+.banner {
+	width: 1700px;
+	margin-left: 30px;
 }
 
 #logo {
@@ -80,7 +86,6 @@ h4 {
 nav {
 	background-color: #e26d5c;
 	text-align: center;
-
 	max-width: 100%;
 }
 nav ul {
@@ -151,7 +156,6 @@ nav {
 }
 
 #section1 {
-	box-shadow: 0 10px 15px #ffe1a8;
 	margin-bottom: 20px;
 }
  
@@ -159,17 +163,20 @@ nav {
 	background-color: #ffe1a8;
 	padding: 2px 20px 10px 20px;
 	margin-bottom: 20px;
+	margin-left: 30px;
 }
 #section3{
 	background-color: #ffe1a8;
 	padding: 2px 20px 10px 20px;
 	margin-bottom: 20px;
+	margin-left: 30px;
 }
 
 #section4{
 	background-color: #ffe1a8;
 	padding: 2px 20px 10px 20px;
 	margin-bottom: 20px;
+	margin-left: 30px;
 }
 
 p {
@@ -215,7 +222,7 @@ table{
     border: 1px solid #472d30;
     color:  #472d30;
 	border-radius: 15px;
-	margin-top: -220px;
+	margin-top: -370px;
 	margin-left: 20px;
 	opacity: .8;
 }
