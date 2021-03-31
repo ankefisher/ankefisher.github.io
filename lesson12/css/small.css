@@ -5,7 +5,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Kiwi Maru', sans-serif;
     text-align: center;
     color: #847577
@@ -15,6 +16,12 @@ p {
     text-align: center;
 }
 
+section {
+    background-color: #e5e6e4;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
 
 header,
 footer {
@@ -22,8 +29,8 @@ footer {
     margin-right: 5%;
     width: 90%;
     background-color: #e5e6e4;
-    padding: 20px 10px 2px 20px;
 }
+   
 
 form {
     margin-left: 15%;

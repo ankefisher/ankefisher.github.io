@@ -17,7 +17,7 @@
 <body onload="currentdate()">
   <header>
     <img id="logo" src="" alt="Logo">
-    <h1 id="h1">The Austin Chamber of Commerce</h1>
+    <h1>The Austin Chamber of Commerce</h1>
   </header>
   <nav>
     <ul class="navigation">
@@ -31,6 +31,47 @@
   </nav>
   <main>
     <h1>Contact</h1>
+
+
+    
+    <section> 
+      <h2>Board of Directors</h2>
+      </section>   
+        
+      <section> 
+        <h2>Conact Us</h2>
+
+        <form method="get" action="thankyou.html">
+          <fieldset>
+              <legend>Your Information</legend>
+              <label class="top">First Name*<input type="text" name="name" title="Must be at least 5 characters"
+                  pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+              <label class="top">Last Name*<input type="text" name="name" title="Must be at least 5 characters"
+                  pattern="^[a-zA-Z\s\.\-]{5,}$" required></label> 
+              <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label><br>
+              <label>Your Message:<br><br><textarea name="comments" class="space"></textarea></label> <br>
+            
+          </fieldset>
+          
+          <input type="submit" value="Send us your message" class="submitBtn"><br><br>
+      </form>
+
+
+        </section>   
+        
+    
+        
+      <section>
+          <p class="paragraph2"> 
+            The Austin Chamber of Commerce <br><br>
+            1000 Main Street <br>
+            Austin, TX, 12345 <br><br>
+            &#9742; 123-456-7890<br>
+            &#9993;  info@acc.org
+          </p>
+          <img class="content-img2" src="images/rsz_1card.png" alt="card"/>
+      </section>
+      
   </main>
  <footer>
   <p id="info">
