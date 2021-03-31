@@ -105,3 +105,38 @@ form label.top input:required:valid {
     width: 200px;
     color: #555;
 }
+
+nav {
+	margin: 0 auto;
+    background-color: #cfd2cd;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+    color: #847577;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+    background-color: #a6a2a2;
+}
+
+.responsive li {
+	display: block;
+}
+
