@@ -140,3 +140,6 @@ nav {
 	display: block;
 }
 
+.active {
+    color: blue;
+}
