@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anke Fisher</title>
+  <meta name="description" content="upload assignments">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kiwi+Maru&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet" type="text/css"> 
+  <link href="css/medium.css" rel="stylesheet" type="text/css"> 
+  <link href="css/large.css" rel="stylesheet" type="text/css"> 
+</head>
+<body onload="currentdate()">
+  <header>
+    <img id="logo" src="" alt="Logo">
+    <h1 id="h1">The Austin Chamber of Commerce</h1>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">&#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="city.html">City</a></li>
+      <li><a href="join.html">Application Form</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="section1"> 
+      </section>   
+  
+      <h2>Application Form</h2>
+      <form method="get" action="thankyou.html">
+          <fieldset>
+              <legend>Your Personal Information</legend>
+              <label class="top">First Name*<input type="text" name="name" title="Must be at least 5 characters"
+                  pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+              <label class="top">Last Name*<input type="text" name="name" title="Must be at least 5 characters"
+                  pattern="^[a-zA-Z\s\.\-]{5,}$" required></label> 
+              <label class="top">Titel<input type="text" name="titel" title="Must be at least 1 characters"
+                  pattern="^[a-zA-Z\s\.\-]{5,}$"></label> 
+              <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label>
+              <label class="top">Cell phone<input id="tel" type="tel" name="phone" placeholder="(XXX) XXX-XXXX"
+                      pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked" title="10-digit number"></label><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Business Information</legend>
+            <label class="top">Your Business Name*<input type="text" name="name" title="Must be at least 5 characters"
+                pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+            <label class="top">Street<input type="text" name="name" title="Must be at least 5 characters"
+                pattern="^[a-zA-Z\s\.\-]{5,}$"></label> 
+            <label class="top">City<input type="text" name="city" title="Must be at least 1 characters"
+                pattern="^[a-zA-Z\s\.\-]{5,}$"></label> 
+            <label class="top">Zipcode<input type="text" name="zipcode"></label>
+            <label class="top">URL of your Business Website<input type="url" name="url" placeholder="www.mybusiness.com"></label> <br>
+            <label>Please provide a short disciption of your business:<br><br><textarea name="comments" class="space"></textarea></label> <br>
+        </fieldset>
+          
+
+          <fieldset>
+              <legend>Membership Level</legend>
+              <div>Please choose your level: </div>
+              <label class="sbs"><input type="radio" name="level" value="non"> Non-profit ($100)</label>
+              <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze ($200)</label>
+              <label class="sbs"><input type="radio" name="level" value="silver"> Silver ($400)</label>
+              <label class="sbs"><input type="radio" name="level" value="gold"> Gold ($1000)</label><br>
+          </fieldset>
+          
+          <input type="submit" value="Send us your application" class="submitBtn"><br><br>
+      </form>
+  </main>
+ <footer>
+  <p id="info">
+    &copy; The Austin Chamber of Commerce
+    <br>
+    Current date: <span id="currentdate"></span></p>
+ </footer>
+ <script src="js/currentdate.js"></script>
+ <script src="js/hamnav.js"></script>
+</body>
+</html> 

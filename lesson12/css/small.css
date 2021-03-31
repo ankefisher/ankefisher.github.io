@@ -1,0 +1,100 @@
+body {
+	font-size: 20px;
+	font-family: 'Comfortaa', sans-serif;
+    background-color:#fbfbf2;
+}
+
+h1,
+h2 {
+    font-family: 'Kiwi Maru', sans-serif;
+    text-align: center;
+    color: #847577
+}
+
+p {
+    text-align: center;
+}
+
+
+header,
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #e5e6e4;
+    padding: 20px 10px 2px 20px;
+}
+
+form {
+    margin-left: 15%;
+    margin-right:15%;
+    width: 70%;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #847577;
+    border-radius: 10px;
+    padding: .5rem 2%;
+	background-color: #e5e6e4;
+}
+
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+	color:  #847577;
+	font-weight: 900;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    max-width: 93%;
+}
+
+form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border-radius: 4px;
+    padding: .75rem;
+    background-color: white;
+    width: 95%;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    max-width: 100%;
+}
+
+.space {
+    margin-top: -15px;
+    padding: .5rem;
+    width: 94%;
+    height: 215px;
+    border-radius: 5px;
+}
+
+form label.top input:required {
+    border-left: #847577 solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left:  #e5e6e4 solid 6px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#white {
+    background-color: white;
+    width: 200px;
+    color: #555;
+}
