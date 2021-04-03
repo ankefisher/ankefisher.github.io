@@ -1,4 +1,4 @@
-const requestURL = 'Users/ankefisher/WDD 230/ankefisher.github.io/lesson12/data/companies.json'; 
+const requestURL = 'ankefisher.github.io/lesson12/data/companies.json'; 
 
 fetch(requestURL)
   .then(function (response) {     
@@ -16,11 +16,11 @@ fetch(requestURL)
         let birthDate = document.createElement('p');
         let birthPlace = document.createElement('p');          
    
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        birthDate.textContent = 'Birth Date: ' + prophets[i].birthdate;
-        birthPlace.textContent = 'Birth Place: ' + prophets[i].birthplace;
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + ' ' +prophets[i].lastname + '-' + prophets[i].order);
+        h2.textContent = companies[i].name + ' ' + companies[i].lastname;
+        birthDate.textContent = 'Birth Date: ' + companies[i].birthdate;
+        birthPlace.textContent = 'Birth Place: ' + companies[i].birthplace;
+        image.setAttribute('src', companies[i].imageurl);
+        image.setAttribute('alt', companies[i].name + ' ' +companies[i].lastname + '-' + companies[i].order);
 
         card.appendChild(h2);
         card.appendChild(birthDate);
