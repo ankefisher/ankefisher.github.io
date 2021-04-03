@@ -4,6 +4,12 @@ body {
     background-color:#fbfbf2;
 }
 
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
 h1,
 h2,
 h3 {
@@ -18,9 +24,6 @@ p {
 
 section {
     background-color: #e5e6e4;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
 }
 
 header,
@@ -31,7 +34,6 @@ footer {
     background-color: #e5e6e4;
 }
    
-
 form {
     margin-left: 15%;
     margin-right:15%;
@@ -45,7 +47,6 @@ form fieldset {
     padding: .5rem 2%;
 	background-color: #e5e6e4;
 }
-
 
 form legend {
     margin: 0 1rem;
@@ -139,7 +140,15 @@ nav {
 .responsive li {
 	display: block;
 }
+.gallery {
+	width: 100%;
+	padding-bottom: 0px;
+	border-radius: 10px;
+}
 
-.active {
-    color: blue;
+figure {
+	margin: 10px;
+	background-color: #e5e6e4;
+	padding: 20px;
+	border-radius: 5px;
 }

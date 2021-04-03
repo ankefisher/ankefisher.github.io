@@ -1,0 +1,160 @@
+body {
+	font-size: 20px;
+	font-family: 'Comfortaa', sans-serif;
+    background-color:#fbfbf2;
+}
+
+main{
+    background-color: #dddddd;
+    margin-top: -10px;
+}  
+h1{
+    color: #5c5cac;
+    text-align: center;
+    font-family: 'Kiwi Maru', sans-serif;
+    margin-top: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 15px;
+   
+}
+section{
+    background-color: #b9b9ca;
+    border: #9797b7 solid 2px;
+}
+
+img{
+    display: block;
+    width: 225px;
+    height: 275px;
+    margin: auto auto 25px auto;
+}
+
+h2{
+    text-align: center;
+    color: #4e4e91;
+    line-height: .75em;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+}
+
+header,
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #e5e6e4;
+}
+
+footer{
+    text-align: center;
+}
+
+nav {
+	margin: 0 auto;
+    background-color: #cfd2cd;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+    color: #847577;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+    background-color: #a6a2a2;
+}
+
+.responsive li {
+	display: block;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+    h1 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    main {
+        margin: 0px 50px 50px 50px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	table{
+        font-size: 18px;
+	}
+}
+
+
+
+
